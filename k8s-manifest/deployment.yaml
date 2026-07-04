@@ -17,5 +17,5 @@ spec:
       containers:
       - name: python-app
         image: ovie2604/python-app:v1
-        ports:
+        ports: 
         - containerPort: 5000
