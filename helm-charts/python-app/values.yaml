@@ -79,6 +79,8 @@ httpRoute:
   parentRefs:
     - name: traefik-gateway
       namespace: traefik
+      group: gateway.networking.k8s.io
+      kind: Gateway
       # sectionName: http
       # namespace: default
   # Hostnames matching HTTP header.
