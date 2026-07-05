@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   name: python-app
   labels:
-    app.kubernetes.io/name: python-app
+    # app.kubernetes.io/name: python-app
+    app: python-app
 spec:
   replicas: 3
   selector:
